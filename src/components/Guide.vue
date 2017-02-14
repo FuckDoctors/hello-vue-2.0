@@ -47,6 +47,12 @@ export default {
         }, {
           title: 'ClassAndStyle',
           link: '/guide/style',
+        }, {
+          title: 'EventHandling',
+          link: '/guide/event',
+        }, {
+          title: 'Form',
+          link: '/guide/form',
         },
       ],
     };

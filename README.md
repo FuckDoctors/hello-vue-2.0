@@ -32,4 +32,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 # 补充说明
 在vue-cli生成的工程基础上，准备手动敲一遍官方guide上的代码，以学习Vue。
-纸上得来终觉浅，绝知此事要躬行。
+
+# 纸上得来终觉浅，绝知此事要躬行。

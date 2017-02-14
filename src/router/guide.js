@@ -8,6 +8,8 @@ import Directives from 'pages/guide/Directives';
 import Filter from 'pages/guide/Filter';
 import Computed from 'pages/guide/Computed';
 import ClassAndStyle from 'pages/guide/ClassAndStyle';
+import EventHandling from 'pages/guide/EventHandling';
+import Form from 'pages/guide/Form';
 
 /* 单独做个文件用来管理Guide练习页面的路由 */
 const routes = [
@@ -47,6 +49,14 @@ const routes = [
     path: '/guide/style',
     name: 'ClassAndStyle',
     component: ClassAndStyle,
+  }, {
+    path: '/guide/event',
+    name: 'EventHandling',
+    component: EventHandling,
+  }, {
+    path: '/guide/form',
+    name: 'Form',
+    component: Form,
   },
 ];
 
