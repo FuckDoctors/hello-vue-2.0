@@ -53,6 +53,9 @@ export default {
         }, {
           title: 'Form',
           link: '/guide/form',
+        }, {
+          title: 'Components',
+          link: '/guide/component',
         },
       ],
     };

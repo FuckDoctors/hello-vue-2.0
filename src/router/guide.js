@@ -10,6 +10,7 @@ import Computed from 'pages/guide/Computed';
 import ClassAndStyle from 'pages/guide/ClassAndStyle';
 import EventHandling from 'pages/guide/EventHandling';
 import Form from 'pages/guide/Form';
+import Components from 'pages/guide/Components';
 
 /* 单独做个文件用来管理Guide练习页面的路由 */
 const routes = [
@@ -57,6 +58,10 @@ const routes = [
     path: '/guide/form',
     name: 'Form',
     component: Form,
+  }, {
+    path: '/guide/component',
+    name: 'Components',
+    component: Components,
   },
 ];
 
