@@ -11,6 +11,8 @@ import ClassAndStyle from 'pages/guide/ClassAndStyle';
 import EventHandling from 'pages/guide/EventHandling';
 import Form from 'pages/guide/Form';
 import Components from 'pages/guide/Components';
+import Components2 from 'pages/guide/Components2';
+import Components3 from 'pages/guide/Components3';
 
 /* 单独做个文件用来管理Guide练习页面的路由 */
 const routes = [
@@ -62,6 +64,14 @@ const routes = [
     path: '/guide/component',
     name: 'Components',
     component: Components,
+  }, {
+    path: '/guide/component2',
+    name: 'Components2',
+    component: Components2,
+  }, {
+    path: '/guide/component3',
+    name: 'Components3',
+    component: Components3,
   },
 ];
 

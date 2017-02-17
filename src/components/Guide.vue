@@ -56,6 +56,12 @@ export default {
         }, {
           title: 'Components',
           link: '/guide/component',
+        }, {
+          title: 'Components2',
+          link: '/guide/component2',
+        }, {
+          title: 'Components3',
+          link: '/guide/component3',
         },
       ],
     };
