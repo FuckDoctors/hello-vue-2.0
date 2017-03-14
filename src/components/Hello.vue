@@ -21,7 +21,8 @@
     <!-- Guide练习入口 -->
     <h2>Guide练习</h2>
     <ul>
-      <li><router-link to="/guide">Guide练习</router-link></li>
+      <li><router-link to="/guide">Vue Guide练习</router-link></li>
+      <li><router-link to="/vuex">Vuex Guide练习</router-link></li>
     </ul>
   </div>
 </template>
