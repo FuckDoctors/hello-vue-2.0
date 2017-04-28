@@ -13,13 +13,11 @@
 </template>
 
 <script type="text/javascript">
-import Vue from 'vue';
-import Vuex from 'vuex';
-
-Vue.use(Vuex);
+import store from 'pages/vuex-docs/store/store';
 
 export default {
   name: 'vuex-app',
+  store,
   data() {
     return {
       /* entry用来设置各个入口，需要配合router/vuex-guide.js里的routes */
@@ -31,6 +29,24 @@ export default {
         }, {
           title: 'Counter',
           link: '/vuex/counter',
+        }, {
+          title: 'Counter2',
+          link: '/vuex/counter2',
+        }, {
+          title: 'Getters',
+          link: '/vuex/getters',
+        }, {
+          title: 'Mutations',
+          link: '/vuex/mutations',
+        }, {
+          title: 'Actions',
+          link: '/vuex/actions',
+        }, {
+          title: 'Modules',
+          link: '/vuex/modules',
+        }, {
+          title: 'Form',
+          link: '/vuex/form',
         },
       ],
     };
