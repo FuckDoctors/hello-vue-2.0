@@ -4,9 +4,11 @@ import Router from 'vue-router';
 import Hello from 'components/Hello';
 import Guide from 'components/Guide';
 import VuexGuide from 'components/VuexGuide';
+import RouterGuide from 'components/RouterGuide';
 
 import GuideRoutes from './guide';
 import VuexRoutes from './vuex-guide';
+import RouterGuideRoutes from './router-guide';
 
 Vue.use(Router);
 
@@ -26,6 +28,11 @@ export default new Router({
       name: 'VuexGuide',
       component: VuexGuide,
       children: VuexRoutes,
+    }, {
+      path: '/router',
+      name: 'RouterGuide',
+      component: RouterGuide,
+      children: RouterGuideRoutes,
     },
   ],
 });
