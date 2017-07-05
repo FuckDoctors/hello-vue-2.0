@@ -1,6 +1,6 @@
 <template>
   <div id="guide-app">
-    <h1>Vue 2.0 Guide</h1>
+    <h1>Vue 2.x Guide</h1>
     <router-link to="/" exact>返回首页</router-link>
     <!-- 显示各个入口链接 -->
     <h3>↓点击下面的各个链接查看效果↓</h3>
