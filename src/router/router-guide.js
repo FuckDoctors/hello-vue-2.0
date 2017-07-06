@@ -5,6 +5,10 @@ import Post from 'pages/router-docs/components/Post';
 import NamedViews from 'pages/router-docs/NamedViews';
 import Hello from 'pages/router-docs/Hello';
 import Redirect from 'pages/router-docs/Redirect';
+import NaviGuards from 'pages/router-docs/NaviGuards';
+import DataFetching from 'pages/router-docs/DataFetching';
+import FetchingAfterNavi from 'pages/router-docs/components/FetchingAfterNavi';
+import FetchingBeforeNavi from 'pages/router-docs/components/FetchingBeforeNavi';
 
 /* 单独做个文件用来管理Guide练习页面的路由 */
 const routes = [
@@ -72,6 +76,25 @@ const routes = [
         path: 'c',
         component: Hello,
         alias: '/h',
+      },
+    ],
+  }, {
+    path: 'navi-guards/',
+    name: 'NaviGuards',
+    component: NaviGuards,
+  }, {
+    path: 'data-fetching/',
+    name: 'DataFetching',
+    component: DataFetching,
+    children: [
+      {
+        path: 'after',
+        name: 'FetchingAfterNavi',
+        component: FetchingAfterNavi,
+      }, {
+        path: 'before',
+        name: 'FetchingBeforeNavi',
+        component: FetchingBeforeNavi,
       },
     ],
   },

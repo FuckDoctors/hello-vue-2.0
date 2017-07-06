@@ -35,6 +35,12 @@ export default {
         }, {
           title: 'Redirect',
           link: '/router/redirect/',
+        }, {
+          title: 'Navigation Guards',
+          link: '/router/navi-guards/',
+        }, {
+          title: 'Data Fetching',
+          link: '/router/data-fetching/',
         },
       ],
     };
